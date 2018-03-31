@@ -1,14 +1,30 @@
-.icon-container {
-    width: 170px;
-    height: 170px;
-    overflow: hidden;
-    border-radius: 50%;
-    display: inline-block;
-    
-}  
 
-.icon{
-    width: 170px;
-    height: auto;
-    
+.icon-container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0.7;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+  border: 3px solid red;
+  color: red;
+  overflow: hidden;
+  display: inline-block;
+}
+.icon {
+   width: 170px;
+   height: auto;
+   display: inline-block;
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  position: relative;
+}
+
+body {
+  margin: 0;
 }
