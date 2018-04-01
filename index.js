@@ -82,7 +82,7 @@ window.onload = function() {
     }
   }
 
-  const circleElems = document.querySelectorAll(".icon-container");
+  const circleElems = document.querySelectorAll(".circle");
   const circles = [...circleElems].map(c => new Circle(c));
   const container = document.querySelector("#container");
   const circleD = circles[0].elem.offsetWidth;

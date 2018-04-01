@@ -1,5 +1,5 @@
 
-.icon-container {
+.circle {
   position: absolute;
   height: 170px;
   width: 170px;
@@ -14,7 +14,7 @@
   display: inline-block;
 }
 
-.icon-container:hover {
+.circle:hover {
   opacity: 1;
   transform: scale(1.1)
 }
