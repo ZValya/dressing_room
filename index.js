@@ -35,13 +35,13 @@ window.onload = function() {
     getIntersection() {
       let res;
       if (this.angle == 0) {
-        res = [workingWidth, this.y];  
+        res = [workingWidth, this.y];
       } else if (this.angle == Math.PI/2) {
         res = [this.x, workingHeight];
       } else if (this.angle == Math.PI) {
         res = [0, this.y];
       } else if (this.angle == Math.PI * 1.5) {
-        res = [this.x, 0]; 
+        res = [this.x, 0];
       } else {
         const m = Math.tan(this.angle)
         const n = this.y - m * this.x
@@ -90,7 +90,7 @@ window.onload = function() {
   let contHeight;
   let workingWidth;
   let workingHeight;
-  
+
   const set_dimentions = () => {
     contWidth = container.offsetWidth;
     contHeight = container.offsetHeight;
@@ -121,5 +121,5 @@ window.onload = function() {
       c.updatePosition()
     });
   });
-  
+
 };
