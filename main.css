@@ -56,3 +56,8 @@ h2 {
 img {
     margin-left: 25px;
 }
+.rightimg {
+    float: right;
+    margin-right: 37%;
+    border: 2px solid black;
+}
