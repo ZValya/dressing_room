@@ -13,7 +13,7 @@ window.onload = function() {
           (this.elem.style.top == 0 || this.elem.style.top == workingHeight)) {
       }
       const c = Math.sqrt(Math.pow(a,2)+Math.pow(b,2))
-      this.elem.style.transitionDuration = `${c/80}s`
+      this.elem.style.transitionDuration = `${c/30}s`
       this.elem.style.top = `${this.y}px`;
       this.elem.style.left = `${this.x}px`;
     }
