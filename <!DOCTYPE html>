@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>My scripts</title>
+    </head>
+    <body>
+        <h1>Moи скрипты</h1>
+        <script>var input = "bashkirovs@rambler.ru";
+for(var i = 0; i < input.length; i++) {
+    if (input.charAt(i) === "@") {
+        console.log("There's an @ sign at index " + i);
+    }
+}  </script>
+    
+    </body>
+
+
+
+</html>
